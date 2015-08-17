@@ -4,7 +4,7 @@
  * https://github.com/tagawa/bootstrap-without-jquery
  */
 
-(function() {
+module.exports = function() {
     'use strict';
     
     /*
@@ -240,4 +240,4 @@
         dropdown.onclick = doDropdown;
         dropdown.onblur = closeDropdown;
     }
-})();
+}
